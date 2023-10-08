@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container" id="content">
+                <h1>Sign up</h1>
+                <form onsubmit="return Validate()">
+                    <input type="text" name="mail" id="mail" placeholder="Email"> <br>
+                    <input type="text" name="pass" id="pass" placeholder="Password">
+                    <input type="submit" value="Sign up">
+                </form> 
+        </div>
+        <div id="msg-box">
+            <h2 id="msg">Validation Success</h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
